@@ -1,0 +1,7 @@
+{
+	"version": 2,
+	"name": "serveless",
+	"route": [
+		{"src": "/api/(.*)", "dest": "/api/index.js"}
+	]
+}
